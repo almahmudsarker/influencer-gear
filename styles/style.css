@@ -163,8 +163,49 @@ article .btn-primary2,
 
 /* feature section */
 
+.feature .feature-div {
+    display: flex;
+    column-gap: 50px;
+    margin-top: 130px;
+    margin-left: 18%;
+    align-items: center;
+}
 
-/* feature section */
+.feature .feature-div .image {
+    margin-top: 20px;
+}
+
+.feature .feature-div .feature-text {
+    width: 50%;
+}
+
+.feature .feature-div .feature-text h2 {
+    font-weight: 900;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.feature .feature-div .feature-text .btn-primary3 {
+    width: 20%;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* feature section end*/
+
+/* footer */
+
+footer {
+    width: 1440px;
+    height: 239px;
+    background: #0A0826;
+}
 
 /* Mobile Devices */
 
